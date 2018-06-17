@@ -1,0 +1,23 @@
+.btn{
+	box-shadow: none;
+	outline-offset: 0px;
+	outline:0;
+}
+.primary-button{
+	padding: 8px 15px;
+	background-color: $black-color;
+	border-radius: 4px;
+	font-size:$font12;
+	color: $white-color;
+	&:hover{
+		color: $white-color;
+	}
+	.mdi{
+	    font-size: 20px;
+	    line-height: 0px;
+	    position: relative;
+	    top: 2px;
+	    right: 4px;
+	    vertical-align: middle;
+	}
+}

@@ -1,0 +1,33 @@
+.footer-section{
+	background: linear-gradient(49.42deg, #2582FC 0%, #4BD5FE 100%);
+	width: 100%;
+	.footer-link{
+		display: inline-block;
+		ul{
+			margin:0px;
+			li{
+				display: inline-block;
+				padding: 20px 25px;
+				a{
+					text-transform: uppercase;
+					font-weight: 600;
+					letter-spacing: 1px;
+					font-size: 12px;
+					color: #FEFEFE;
+					text-decoration: none;
+				}
+			}
+		}
+	}
+	.footer-copyright{
+		float: right;
+		padding: 20px 25px;
+		label{
+			text-transform: uppercase;
+			font-weight: 600;
+			letter-spacing: 1px;
+			font-size: 12px;
+			color: #FEFEFE;
+		}
+	}
+}

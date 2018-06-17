@@ -1,0 +1,14 @@
+body{
+	font-family: $font-poppins;
+	font-synthesis: none;
+    -moz-font-feature-settings: 'kern';
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.main-container{
+	padding: $padding0;
+	margin-top: 83px;
+}
+label{
+	margin-bottom:0px;
+}

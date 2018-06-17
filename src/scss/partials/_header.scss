@@ -1,0 +1,46 @@
+.header-section{
+	position: fixed;
+	width: 100%;
+	background-color: #fff;
+	z-index: 9999;
+	border-bottom: 1px solid #F2F2F2;
+	height: 82px;
+	.logo-section{
+		padding: $padding0;
+	}
+	.hamburger-section{
+		padding: $padding0;
+		ul{
+			margin-bottom: 0px;
+			li{
+				border-left: 1px solid #F2F2F2;
+				display: inline-block;
+				cursor: pointer;
+				color: rgba(1, 1, 1, 0.2);
+			    padding: 23px 25px;
+			    vertical-align: top;
+				&:hover .mdi{
+					color:#2293ff;
+				}
+				a{
+					color: rgba(1, 1, 1, 0.2);
+					text-decoration: none !important;
+				}
+				&.contact-link{
+					font-size: $font16;
+					padding: 30px 15px;
+					&:hover a{
+						color: #2293ff;
+					}
+				}
+				.mdi{
+					font-size: 24px;
+					color: rgba(1, 1, 1, 0.2);
+				}
+				&.menu-icon{
+					padding: 30px 30px;
+				}
+			}
+		}
+	}
+}
